@@ -1,3 +1,3 @@
 ## Diagrama do Sistema
 
-![Diagrama do Sistema](Captura de tela 2026-09-14 081303.png)
+![Diagrama do Sistema](Capturadetela2026-09-14081303.png)
