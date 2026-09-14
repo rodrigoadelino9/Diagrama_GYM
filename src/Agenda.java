@@ -8,6 +8,7 @@ public class Agenda {
     private LocalTime horarioInicio;
     private LocalTime horarioFim;
     private boolean disponivel;
+    private Aluno alunoReservou;
 
     public Agenda() {
     }
@@ -34,8 +35,18 @@ public class Agenda {
         disponivel = false;
     }
 
+    public void reservar(Aluno aluno) {
+        reservar();
+        alunoReservou = aluno;
+    }
+
     public void liberar() {
         disponivel = true;
+        alunoReservou = null;
+    }
+
+    public Aluno getAlunoReservou() {
+        return alunoReservou;
     }
 
     public boolean conflito(Agenda outraAgenda) {

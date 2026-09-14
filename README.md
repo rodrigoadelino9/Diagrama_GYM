@@ -1,3 +1,3 @@
-## Diagrama do Sistema
+![](Capturadetela2026-09-14081303.png)
 
-![Diagrama do Sistema](Capturadetela2026-09-14081303.png)
+![](Capturadetela2026-09-14133439.png)

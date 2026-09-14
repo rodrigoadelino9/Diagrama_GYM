@@ -14,6 +14,8 @@ public class Aluno extends Usuario {
     private final List<AvaliacaoFisica> avaliacoes = new ArrayList<>();
     private final List<HistoricoTreino> historico = new ArrayList<>();
 
+    private PersonalTrainer personalTrainer;
+
     public Aluno() {
     }
 
@@ -56,6 +58,14 @@ public class Aluno extends Usuario {
 
     public List<HistoricoTreino> getHistorico() {
         return historico;
+    }
+
+    public PersonalTrainer getPersonalTrainer() {
+        return personalTrainer;
+    }
+
+    public void setPersonalTrainer(PersonalTrainer personalTrainer) {
+        this.personalTrainer = personalTrainer;
     }
 
     @Override
